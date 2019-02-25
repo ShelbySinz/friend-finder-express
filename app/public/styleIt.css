@@ -1,0 +1,16 @@
+body{
+    
+    background-image: url(../back.jpg);
+    
+    background-size: 100%, 100%;
+}
+
+
+
+.jumbotron{
+    opacity:0.7 ;
+}
+
+.card{
+    opacity: 0.7 ;
+}
