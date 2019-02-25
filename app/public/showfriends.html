@@ -2,23 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Showfriends</title>
+    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel = "stylesheet" href="styleIt.css">
+	
 	<script src="https://code.jquery.com/jquery.js"></script>
-    <title>Showfriends</title>
+  <!-- <link rel = "stylesheet" href= "css/styleIt.css"> -->
 </head>
+<style>
+  body{ background-image: url(http://images6.fanpop.com/image/photos/36600000/How-I-Met-Your-Mother-image-how-i-met-your-mother-36613098-1280-720.jpg);
+    background-attachment: fixed;
+      background-position: 100% ;} 
+.jumbotron{opacity: 0.7}      
+.jumbotron:hover{ opacity:1 ;} 
+.card{opacity: 0.7}      
+.card:hover{ opacity:1 ;} 
+
+</style>
 <body>
 
         <div class="container">
-                <div class="jumbotron">
+                <div class="jumbotron ">
+                    
                   <h1>Friend Finder</h1>
                   <h3>Great friendship is right around the corner!</h3>
                   <hr>
                   <a href="/"><button class="btn btn-success btn-md"><span class="fa fa-plus"></span> Back to home</button></a>
                 </div>
-
+                
 
 
 
@@ -48,9 +60,6 @@
                   <!-- BELOW CODE IS CRITICAL. IT HANDLES HOW FORM DATA IS LOADED FROM OUR SERVER -->
                   <script type="text/javascript">
                   
-                    // In this code, jQuery is used to "download" the data from our server
-                    // We then dynamically display this content in our table. This is very similar to the group projects you just completed.
-                    // It's also very similar to the NYT search application. In fact, I copied a ton of code from there.
                   
                     function runfriendQuery() {
                       // The AJAX function uses the URL of our API to GET the data associated with it (initially set to localhost)

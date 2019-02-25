@@ -1,19 +1,25 @@
 
 var friendsArray = [
     {
-      Name: "Alice",
-      photo:" https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?cs=srgb&dl=beautiful-blur-blurred-background-733872.jpg&fm=jpg" ,
+      Name: "Barney",
+      photo:"https://media.giphy.com/media/k39w535jFPYrK/giphy.gif" ,
       surveyAnswers: ["3","2","5","3","2","1","3","5","3","4"]
     },
     {
-        Name: "joe",
-        photo: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?cs=srgb&dl=adult-beard-boy-220453.jpg&fm=jpg", 
+        Name: "Ted",
+        photo: "https://media.giphy.com/media/zYkupB2XW2Y7K/giphy.gif", 
         surveyAnswers: ["3","2","5","5","2","1","5","5","3","4"]
       },
       {
-        Name: "Betty",
-        photo: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?cs=srgb&dl=beautiful-brunette-cute-774909.jpg&fm=jpg", 
+        Name: "Robin",
+        photo:"https://media.giphy.com/media/edM5bqYK3l8NW/giphy.gif" , 
         surveyAnswers: ["3","4","5","2","2","1","3","5","4","4"]
+      },
+      {
+        Name: "Lilly",
+        photo:"https://media.giphy.com/media/z52VqCTTIXmg0/giphy.gif",
+        surveyAnswers: ["3","1","5","2","2","1","3","5","1","4"]
+
       }
   ];
   

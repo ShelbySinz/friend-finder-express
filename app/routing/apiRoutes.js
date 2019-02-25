@@ -25,7 +25,7 @@ module.exports = function(app) {
     var newFriendScores = req.body.surveyAnswers;
     var matchName = '';
     var matchImage = '';
-    var totalDifference = 1000;
+    var totalDifference = 20;
     var friends = friendData;
     //runs through all current friends in list
     for(var i=0; i < friends.length; i++){
@@ -38,7 +38,7 @@ module.exports = function(app) {
       // console.log(friends[i].surveyAnswers)
       // console.log(newFriendScores);
        console.log(scoresDiff);
-    if(scoresDiff < totalDifference){
+    if(scoresDiff <= totalDifference){
         
         matchName = friends[i].Name;
         matchImage = friends[i].photo;

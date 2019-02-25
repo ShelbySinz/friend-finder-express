@@ -1,17 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-	 crossorigin="anonymous">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href= "styleIt.css">
-	<script src="https://code.jquery.com/jquery.js"></script>
-	<title>Survey</title>
-</head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=9" />
 
+	<title>Survey</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- <link rel="stylesheet" type = "text/css" href= "static/css/styleIt.css"> -->
+	<script src="https://code.jquery.com/jquery.js"></script>
+	 
+</head>
+<style>
+		body{ background-image:url(http://images6.fanpop.com/image/photos/36600000/How-I-Met-Your-Mother-image-how-i-met-your-mother-36613098-1280-720.jpg);
+				background-attachment: fixed;
+			background-position: 100% ;
+			}
+			.jumbotron{opacity: 0.7}      
+.jumbotron:hover{ opacity:1 ;} 
+.card{opacity: 0.7}      
+.card:hover{ opacity:1 ;} 
+	</style>
 <body>
 
 	<div class="container">
@@ -178,14 +188,36 @@
 		</div>
 	</div>
 
-	<!-- Materialize Modal Structure -->
+	<!-- Materialize Modal Structure
 	<div id="modal" class="modal">
 		<div class="modal-content">
 			<span class="close">&times;</span>
 			<h4>Your new friend</h4>
 			<h5 id="usermatch"></h5>
 			<img id="userMatchImage" width=250px>
-		</div>
+		</div> -->
+
+		<div id= "modal" class="modal" tabindex="-1" role="dialog">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title">Your New Friend!</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+								<h5 id="usermatch"></h5>
+								<img id="userMatchImage" width=250px>
+						</div>
+						<div class="modal-footer">
+							
+							
+						</div>
+					</div>
+				</div>
+			</div>
+
 
 
 		<script>
