@@ -1,16 +1,8 @@
-body{
-    
-    background-image: url(../../back.jpg);
-    
-    background-size: 100%, 100%;
+body{ background-image:url(http://images6.fanpop.com/image/photos/36600000/How-I-Met-Your-Mother-image-how-i-met-your-mother-36613098-1280-720.jpg);
+    background-attachment: fixed;
+background-position: 100% ;
 }
-
-
-
-.jumbotron{
-    opacity:0.7 ;
-}
-
-.card{
-    opacity: 0.7 ;
-}
+.jumbotron{opacity: 0.7}      
+.jumbotron:hover{ opacity:1 ;} 
+.card{opacity: 0.7}      
+.card:hover{ opacity:1 ;} 
