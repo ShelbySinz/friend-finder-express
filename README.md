@@ -6,4 +6,5 @@ A node.js app that uses
 
 
 This app is deployed on heroku - visit the link below to view!
-### https://evening-coast-61657.herokuapp.com/
+
+[heroku](https://evening-coast-61657.herokuapp.com/)
